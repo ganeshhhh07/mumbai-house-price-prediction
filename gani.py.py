@@ -16,7 +16,7 @@ from lightgbm import LGBMRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Load dataset
-data = pd.read_csv("mumbai_house_price_final.csv")
+data = pd.read_csv("data/mumbai_house_price_final.csv")
 
 # Encode categorical features
 categorical_cols = ['property_type', 'New/Resale', 'market_trend', 'property_category', 'furnishing_status',
